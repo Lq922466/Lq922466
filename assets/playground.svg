@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1120" viewBox="0 0 1200 1120" role="img" aria-labelledby="title desc">
-  <title id="title">lq's playground ✳ — INNNX.</title>
+  <title id="title">innnx's playground ✳ — INNNX.</title>
   <desc id="desc">A warm terracotta playground. Making Stuff Just Because. Code, games, robots and security. Four cards: Featured, Infra &amp; Security, Games, and Robots &amp; IoT. Currently experimenting with everything.</desc>
   <defs>
     <pattern id="grain" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="3" cy="5" r=".7" fill="#F8D89B" opacity=".12"/><circle cx="17" cy="18" r=".6" fill="#F8D89B" opacity=".1"/></pattern>

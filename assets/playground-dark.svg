@@ -15,14 +15,6 @@
     <text x="66" y="330" font-size="31" letter-spacing="-.6">Making Stuff Just Because.</text>
     <text x="66" y="398" font-size="23">hey! i'm INNNX — I like turning random ideas into real things.</text>
     <text x="66" y="449" font-size="20" fill="#9198a1" letter-spacing="1">✳ code   ✳ games   ✳ robots   ✳ security</text>
-    <g transform="translate(913 188)" fill="none" stroke="#9198a1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M-36 110L77 13L190 110M-14 93V190H167V93M122 47V12H151V71"/>
-      <path d="M52 190V123Q76 106 100 123V190"/>
-      <rect x="9" y="106" width="28" height="30" rx="2"/><path d="M23 106V136M9 121H37"/>
-      <rect x="116" y="106" width="28" height="30" rx="2"/><path d="M130 106V136M116 121H144"/>
-      <path d="M-40 191H195M137-8Q120-22 136-38Q151-53 138-69M-12 169Q-38 134-53 157Q-48 182-12 180M177 175Q205 140 217 162Q206 183 177 185"/>
-      <use href="#star" x="194" y="5" style="color:#9198a1"/>
-    </g>
     <path d="M64 492H1136" stroke="#9198a1" stroke-opacity=".45"/>
     <text x="64" y="554" font-size="30" font-weight="600" letter-spacing="-.6">Things i've made <tspan font-size="22" font-weight="400">(or am making)</tspan></text>
     <g fill="#161b22">

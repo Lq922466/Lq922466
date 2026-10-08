@@ -2,16 +2,12 @@
   <title id="title">innnx's playground ✳ — INNNX.</title>
   <desc id="desc">A muted gray-purple playground. Making Stuff Just Because. Code, games, robots and security. Four cards: Featured, Infra &amp; Security, Games, and Robots &amp; IoT. Currently experimenting with everything.</desc>
   <style>
-    .card { animation: card-float 5s ease-in-out infinite; }
-    .card-1 { animation-delay: -1.25s; }
-    .card-2 { animation-delay: -2.5s; }
-    .card-3 { animation-delay: -3.75s; }
-    .card-icon { animation: icon-glow 5s ease-in-out infinite; }
-    .city-lights { animation: city-lights 6s ease-in-out infinite; }
-    @keyframes card-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
-    @keyframes icon-glow { 0%, 100% { opacity: .65; } 50% { opacity: 1; } }
-    @keyframes city-lights { 0%, 100% { opacity: .35; } 50% { opacity: .8; } }
-    @media (prefers-reduced-motion: reduce) { .card, .card-icon, .city-lights { animation: none; } }
+    .card-border { animation: border-breathe 5s ease-in-out infinite; }
+    .card-1 .card-border { animation-delay: -1.25s; }
+    .card-2 .card-border { animation-delay: -2.5s; }
+    .card-3 .card-border { animation-delay: -3.75s; }
+    @keyframes border-breathe { 0%, 100% { stroke-opacity: .25; } 50% { stroke-opacity: .55; } }
+    @media (prefers-reduced-motion: reduce) { .card-border { animation: none; } }
   </style>
   <defs>
     <pattern id="grain" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="3" cy="5" r=".7" fill="#59636e" opacity=".12"/><circle cx="17" cy="18" r=".6" fill="#59636e" opacity=".1"/></pattern>
@@ -43,7 +39,7 @@
     <text x="64" y="554" font-size="30" font-weight="600" letter-spacing="-.6">Things i've made <tspan font-size="22" font-weight="400">(or am making)</tspan></text>
     <g class="card card-0">
       <g fill="#f6f8fa"><rect x="64" y="591" width="524" height="181" rx="18" xmlns="http://www.w3.org/2000/svg" /></g>
-      <g fill="none" stroke="#59636e" stroke-opacity=".3"><rect x="64.5" y="591.5" width="523" height="180" rx="18" xmlns="http://www.w3.org/2000/svg" /></g>
+      <g class="card-border" fill="none" stroke="#59636e" stroke-opacity=".3"><rect x="64.5" y="591.5" width="523" height="180" rx="18" xmlns="http://www.w3.org/2000/svg" /></g>
       <g fill="#59636e" font-family="Consolas, monospace" font-size="15" letter-spacing="2"><text x="92" y="629" xmlns="http://www.w3.org/2000/svg">01 /</text></g>
       <g font-size="34" font-weight="700" letter-spacing="-.8"><text x="92" y="686" xmlns="http://www.w3.org/2000/svg">Featured</text></g>
       <g font-size="22" fill="#59636e"><text x="92" y="730" xmlns="http://www.w3.org/2000/svg">— the big ideas</text></g>
@@ -51,7 +47,7 @@
     </g>
     <g class="card card-1">
       <g fill="#f6f8fa"><rect x="612" y="591" width="524" height="181" rx="18" xmlns="http://www.w3.org/2000/svg" /></g>
-      <g fill="none" stroke="#59636e" stroke-opacity=".3"><rect x="612.5" y="591.5" width="523" height="180" rx="18" xmlns="http://www.w3.org/2000/svg" /></g>
+      <g class="card-border" fill="none" stroke="#59636e" stroke-opacity=".3"><rect x="612.5" y="591.5" width="523" height="180" rx="18" xmlns="http://www.w3.org/2000/svg" /></g>
       <g fill="#59636e" font-family="Consolas, monospace" font-size="15" letter-spacing="2"><text x="640" y="629" xmlns="http://www.w3.org/2000/svg">02 /</text></g>
       <g font-size="34" font-weight="700" letter-spacing="-.8"><text x="640" y="686" xmlns="http://www.w3.org/2000/svg">Infra &amp; Security</text></g>
       <g font-size="22" fill="#59636e"><text x="640" y="730" xmlns="http://www.w3.org/2000/svg">— the technical stuff</text></g>
@@ -59,7 +55,7 @@
     </g>
     <g class="card card-2">
       <g fill="#f6f8fa"><rect x="64" y="796" width="524" height="181" rx="18" xmlns="http://www.w3.org/2000/svg" /></g>
-      <g fill="none" stroke="#59636e" stroke-opacity=".3"><rect x="64.5" y="796.5" width="523" height="180" rx="18" xmlns="http://www.w3.org/2000/svg" /></g>
+      <g class="card-border" fill="none" stroke="#59636e" stroke-opacity=".3"><rect x="64.5" y="796.5" width="523" height="180" rx="18" xmlns="http://www.w3.org/2000/svg" /></g>
       <g fill="#59636e" font-family="Consolas, monospace" font-size="15" letter-spacing="2"><text x="92" y="834" xmlns="http://www.w3.org/2000/svg">03 /</text></g>
       <g font-size="34" font-weight="700" letter-spacing="-.8"><text x="92" y="891" xmlns="http://www.w3.org/2000/svg">Games</text></g>
       <g font-size="22" fill="#59636e"><text x="92" y="935" xmlns="http://www.w3.org/2000/svg">— the fun stuff</text></g>
@@ -67,7 +63,7 @@
     </g>
     <g class="card card-3">
       <g fill="#f6f8fa"><rect x="612" y="796" width="524" height="181" rx="18" xmlns="http://www.w3.org/2000/svg" /></g>
-      <g fill="none" stroke="#59636e" stroke-opacity=".3"><rect x="612.5" y="796.5" width="523" height="180" rx="18" xmlns="http://www.w3.org/2000/svg" /></g>
+      <g class="card-border" fill="none" stroke="#59636e" stroke-opacity=".3"><rect x="612.5" y="796.5" width="523" height="180" rx="18" xmlns="http://www.w3.org/2000/svg" /></g>
       <g fill="#59636e" font-family="Consolas, monospace" font-size="15" letter-spacing="2"><text x="640" y="834" xmlns="http://www.w3.org/2000/svg">04 /</text></g>
       <g font-size="34" font-weight="700" letter-spacing="-.8"><text x="640" y="891" xmlns="http://www.w3.org/2000/svg">Robots &amp; IoT</text></g>
       <g font-size="22" fill="#59636e"><text x="640" y="935" xmlns="http://www.w3.org/2000/svg">— the little inventions</text></g>

@@ -1,6 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1120" viewBox="0 0 1200 1120" role="img" aria-labelledby="title desc">
   <title id="title">innnx's playground ✳ — INNNX.</title>
   <desc id="desc">A muted gray-purple playground. Making Stuff Just Because. Code, games, robots and security. Four cards: Featured, Infra &amp; Security, Games, and Robots &amp; IoT. Currently experimenting with everything.</desc>
+  <style>
+    .card { animation: card-float 5s ease-in-out infinite; }
+    .card-1 { animation-delay: -1.25s; }
+    .card-2 { animation-delay: -2.5s; }
+    .card-3 { animation-delay: -3.75s; }
+    .card-icon { animation: icon-glow 5s ease-in-out infinite; }
+    .city-lights { animation: city-lights 6s ease-in-out infinite; }
+    @keyframes card-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+    @keyframes icon-glow { 0%, 100% { opacity: .65; } 50% { opacity: 1; } }
+    @keyframes city-lights { 0%, 100% { opacity: .35; } 50% { opacity: .8; } }
+    @media (prefers-reduced-motion: reduce) { .card, .card-icon, .city-lights { animation: none; } }
+  </style>
   <defs>
     <pattern id="grain" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="3" cy="5" r=".7" fill="#9198a1" opacity=".12"/><circle cx="17" cy="18" r=".6" fill="#9198a1" opacity=".1"/></pattern>
     <g id="star" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M-12 0H12M0-12V12M-8.5-8.5L8.5 8.5M-8.5 8.5L8.5-8.5"/></g>
@@ -15,23 +27,51 @@
     <text x="66" y="330" font-size="31" letter-spacing="-.6">Making Stuff Just Because.</text>
     <text x="66" y="398" font-size="23">hey! i'm INNNX — I like turning random ideas into real things.</text>
     <text x="66" y="449" font-size="20" fill="#9198a1" letter-spacing="1">✳ code   ✳ games   ✳ robots   ✳ security</text>
+    <g id="city" transform="translate(900 184)" fill="none" stroke="#9198a1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <g opacity=".45">
+        <path d="M5 196V99H30V196M31 196V67H55V196M172 196V77H194V196M199 196V115H226V196"/>
+        <path d="M13 112H22M13 128H22M13 144H22M39 82H47M39 98H47M39 114H47M180 93H186M180 110H186M207 132H217M207 148H217"/>
+      </g>
+      <path d="M40 196V112H77V196M77 196V46H119V196M87 46V32H109V46M98 32V10M125 196V80H160V196M135 80V66H150V80M161 196V133H202V196"/>
+      <path d="M49 126H67M49 145H67M49 164H67M86 61H110M86 80H110M86 99H110M86 118H110M86 137H110M86 156H110M134 96H151M134 115H151M134 134H151M134 153H151M171 147H192M171 166H192" stroke-opacity=".55"/>
+      <path d="M95 196V178H103V196M139 196V178H148V196M51 196V181H65V196M0 196H236"/>
+      <g class="city-lights" stroke-width="4">
+        <path d="M89 80H92M104 118H107M89 156H92M137 115H140M146 153H149M174 166H178M52 145H55"/>
+      </g>
+    </g>
     <path d="M64 492H1136" stroke="#9198a1" stroke-opacity=".45"/>
     <text x="64" y="554" font-size="30" font-weight="600" letter-spacing="-.6">Things i've made <tspan font-size="22" font-weight="400">(or am making)</tspan></text>
-    <g fill="#161b22">
-      <rect x="64" y="591" width="524" height="181" rx="18"/>
-      <rect x="612" y="591" width="524" height="181" rx="18"/>
-      <rect x="64" y="796" width="524" height="181" rx="18"/>
-      <rect x="612" y="796" width="524" height="181" rx="18"/>
+    <g class="card card-0">
+      <g fill="#161b22"><rect x="64" y="591" width="524" height="181" rx="18" xmlns="http://www.w3.org/2000/svg" /></g>
+      <g fill="none" stroke="#9198a1" stroke-opacity=".3"><rect x="64.5" y="591.5" width="523" height="180" rx="18" xmlns="http://www.w3.org/2000/svg" /></g>
+      <g fill="#9198a1" font-family="Consolas, monospace" font-size="15" letter-spacing="2"><text x="92" y="629" xmlns="http://www.w3.org/2000/svg">01 /</text></g>
+      <g font-size="34" font-weight="700" letter-spacing="-.8"><text x="92" y="686" xmlns="http://www.w3.org/2000/svg">Featured</text></g>
+      <g font-size="22" fill="#9198a1"><text x="92" y="730" xmlns="http://www.w3.org/2000/svg">— the big ideas</text></g>
+      <g class="card-icon" fill="none" stroke="#9198a1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><use href="#star" x="543" y="630" style="color:#9198a1" xmlns="http://www.w3.org/2000/svg" /></g>
     </g>
-    <g fill="none" stroke="#9198a1" stroke-opacity=".3"><rect x="64.5" y="591.5" width="523" height="180" rx="18"/><rect x="612.5" y="591.5" width="523" height="180" rx="18"/><rect x="64.5" y="796.5" width="523" height="180" rx="18"/><rect x="612.5" y="796.5" width="523" height="180" rx="18"/></g>
-    <g fill="#9198a1" font-family="Consolas, monospace" font-size="15" letter-spacing="2"><text x="92" y="629">01 /</text><text x="640" y="629">02 /</text><text x="92" y="834">03 /</text><text x="640" y="834">04 /</text></g>
-    <g font-size="34" font-weight="700" letter-spacing="-.8"><text x="92" y="686">Featured</text><text x="640" y="686">Infra &amp; Security</text><text x="92" y="891">Games</text><text x="640" y="891">Robots &amp; IoT</text></g>
-    <g font-size="22" fill="#9198a1"><text x="92" y="730">— the big ideas</text><text x="640" y="730">— the technical stuff</text><text x="92" y="935">— the fun stuff</text><text x="640" y="935">— the little inventions</text></g>
-    <g fill="none" stroke="#9198a1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-      <use href="#star" x="543" y="630" style="color:#9198a1"/>
-      <path d="M1081 615L1096 620V632Q1094 645 1081 651Q1068 645 1066 632V620Z M1075 633L1080 638L1088 628"/>
-      <path d="M528 823H549Q555 823 558 831L562 845Q563 852 557 852L548 845H529L520 852Q514 852 515 845L519 831Q521 823 528 823Z M524 831V841M519 836H529M547 833H547.1M552 840H552.1"/>
-      <rect x="1066" y="825" width="34" height="26" rx="5"/><path d="M1083 825V816M1078 816H1088M1066 836H1060M1100 836H1106M1075 835V837M1091 835V837M1077 844H1089"/>
+    <g class="card card-1">
+      <g fill="#161b22"><rect x="612" y="591" width="524" height="181" rx="18" xmlns="http://www.w3.org/2000/svg" /></g>
+      <g fill="none" stroke="#9198a1" stroke-opacity=".3"><rect x="612.5" y="591.5" width="523" height="180" rx="18" xmlns="http://www.w3.org/2000/svg" /></g>
+      <g fill="#9198a1" font-family="Consolas, monospace" font-size="15" letter-spacing="2"><text x="640" y="629" xmlns="http://www.w3.org/2000/svg">02 /</text></g>
+      <g font-size="34" font-weight="700" letter-spacing="-.8"><text x="640" y="686" xmlns="http://www.w3.org/2000/svg">Infra &amp; Security</text></g>
+      <g font-size="22" fill="#9198a1"><text x="640" y="730" xmlns="http://www.w3.org/2000/svg">— the technical stuff</text></g>
+      <g class="card-icon" fill="none" stroke="#9198a1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1081 615L1096 620V632Q1094 645 1081 651Q1068 645 1066 632V620Z M1075 633L1080 638L1088 628" xmlns="http://www.w3.org/2000/svg" /></g>
+    </g>
+    <g class="card card-2">
+      <g fill="#161b22"><rect x="64" y="796" width="524" height="181" rx="18" xmlns="http://www.w3.org/2000/svg" /></g>
+      <g fill="none" stroke="#9198a1" stroke-opacity=".3"><rect x="64.5" y="796.5" width="523" height="180" rx="18" xmlns="http://www.w3.org/2000/svg" /></g>
+      <g fill="#9198a1" font-family="Consolas, monospace" font-size="15" letter-spacing="2"><text x="92" y="834" xmlns="http://www.w3.org/2000/svg">03 /</text></g>
+      <g font-size="34" font-weight="700" letter-spacing="-.8"><text x="92" y="891" xmlns="http://www.w3.org/2000/svg">Games</text></g>
+      <g font-size="22" fill="#9198a1"><text x="92" y="935" xmlns="http://www.w3.org/2000/svg">— the fun stuff</text></g>
+      <g class="card-icon" fill="none" stroke="#9198a1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M528 823H549Q555 823 558 831L562 845Q563 852 557 852L548 845H529L520 852Q514 852 515 845L519 831Q521 823 528 823Z M524 831V841M519 836H529M547 833H547.1M552 840H552.1" xmlns="http://www.w3.org/2000/svg" /></g>
+    </g>
+    <g class="card card-3">
+      <g fill="#161b22"><rect x="612" y="796" width="524" height="181" rx="18" xmlns="http://www.w3.org/2000/svg" /></g>
+      <g fill="none" stroke="#9198a1" stroke-opacity=".3"><rect x="612.5" y="796.5" width="523" height="180" rx="18" xmlns="http://www.w3.org/2000/svg" /></g>
+      <g fill="#9198a1" font-family="Consolas, monospace" font-size="15" letter-spacing="2"><text x="640" y="834" xmlns="http://www.w3.org/2000/svg">04 /</text></g>
+      <g font-size="34" font-weight="700" letter-spacing="-.8"><text x="640" y="891" xmlns="http://www.w3.org/2000/svg">Robots &amp; IoT</text></g>
+      <g font-size="22" fill="#9198a1"><text x="640" y="935" xmlns="http://www.w3.org/2000/svg">— the little inventions</text></g>
+      <g class="card-icon" fill="none" stroke="#9198a1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1066" y="825" width="34" height="26" rx="5" xmlns="http://www.w3.org/2000/svg" /><path d="M1083 825V816M1078 816H1088M1066 836H1060M1100 836H1106M1075 835V837M1091 835V837M1077 844H1089" xmlns="http://www.w3.org/2000/svg" /></g>
     </g>
     <path d="M64 1018H1136" stroke="#9198a1" stroke-opacity=".45"/>
     <circle cx="72" cy="1062" r="5" fill="#9198a1"/>

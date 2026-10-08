@@ -1,47 +1,56 @@
 
 <div align="left">
 
-<sub>lq's playground ✳　　　　　　　　　　　　　　　　　est. 2026</sub>
+<sub>lq's playground ✳ &nbsp; / &nbsp; est. 2026</sub>
 
-# making stuff just because.
+<br><br>
 
-hey! i'm INNNX — i like turning random ideas into real things.
+<h1>INNNX.</h1>
 
-`✳ code` &nbsp; `✳ games` &nbsp; `✳ robots` &nbsp; `✳ security`
+<h2>Making Stuff Just Because.</h2>
 
----
+<p>hey! i'm INNNX — i like turning random ideas into real things.</p>
 
-### things i've made (or am making)
+<p>
+  <code>✳ code</code>&nbsp;
+  <code>✳ games</code>&nbsp;
+  <code>✳ robots</code>&nbsp;
+  <code>✳ security</code>
+</p>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<br>
 
-### featured
-<sub>the big ideas</sub>
+<hr>
 
-</td>
-<td width="50%" valign="top">
+<h3>things i've made (or am making)</h3>
 
-### infra & security
-<sub>the technical stuff</sub>
+<br>
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### games
-<sub>the fun stuff</sub>
-
-</td>
-<td width="50%" valign="top">
-
-### robots & IoT
-<sub>the little inventions</sub>
-
-</td>
-</tr>
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Featured</h3>
+      <sub>the big ideas</sub>
+      <br><br>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Infra &amp; security</h3>
+      <sub>the technical stuff</sub>
+      <br><br>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Games</h3>
+      <sub>the fun stuff</sub>
+      <br><br>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Robots &amp; IoT</h3>
+      <sub>the little inventions</sub>
+      <br><br>
+    </td>
+  </tr>
 </table>
 
 <br>
@@ -49,19 +58,3 @@ hey! i'm INNNX — i like turning random ideas into real things.
 <i>currently experimenting with everything.</i>
 
 </div>
-
-
-<!--
-**Lq922466/Lq922466** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->

@@ -1,33 +1,4 @@
-lq's playground ✳ · est. 2026
-
-# INNNX.
-
-### Making Stuff Just Because.
-
-hey! i'm INNNX — I like turning random ideas into real things.
-
-✳ code · ✳ games · ✳ robots · ✳ security
-
----
-
-## Things i've made (or am making)
-
-### Featured
-
-— the big ideas
-
-### Infra & Security
-
-— the technical stuff
-
-### Games
-
-— the fun stuff
-
-### Robots & IoT
-
-— the little inventions
-
----
-
-currently experimenting with everything.
+<p align="center">
+  <img src="assets/playground.svg#gh-light-mode-only" width="100%" alt="lq's playground ✳ / est. 2026 / INNNX. / Making Stuff Just Because. / hey! i'm INNNX — I like turning random ideas into real things. / ✳ code ✳ games ✳ robots ✳ security / things i've made (or am making) / Featured— the big ideas / Infra & Security— the technical stuff / Games— the fun stuff / Robots & IoT— the little inventions / currently experimenting with everything." />
+  <img src="assets/playground-dark.svg#gh-dark-mode-only" width="100%" alt="lq's playground ✳ / est. 2026 / INNNX. / Making Stuff Just Because. / hey! i'm INNNX — I like turning random ideas into real things. / ✳ code ✳ games ✳ robots ✳ security / things i've made (or am making) / Featured— the big ideas / Infra & Security— the technical stuff / Games— the fun stuff / Robots & IoT— the little inventions / currently experimenting with everything." />
+</p>

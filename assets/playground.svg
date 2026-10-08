@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1120" viewBox="0 0 1200 1120" role="img" aria-labelledby="title desc">
   <title id="title">lq's playground ✳ — INNNX.</title>
-  <desc id="desc">A warm terracotta playground. Making stuff just because. Code, games, robots and security. Four cards: featured, infra &amp; security, games, and robots &amp; IoT. Currently experimenting with everything.</desc>
+  <desc id="desc">A warm terracotta playground. Making Stuff Just Because. Code, games, robots and security. Four cards: Featured, Infra &amp; Security, Games, and Robots &amp; IoT. Currently experimenting with everything.</desc>
   <defs>
     <pattern id="grain" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="3" cy="5" r=".7" fill="#F8D89B" opacity=".12"/><circle cx="17" cy="18" r=".6" fill="#F8D89B" opacity=".1"/></pattern>
     <g id="star" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M-12 0H12M0-12V12M-8.5-8.5L8.5 8.5M-8.5 8.5L8.5-8.5"/></g>
@@ -12,11 +12,11 @@
     <text x="1136" y="82" text-anchor="end" font-size="18" letter-spacing="2" fill="#F8D89B">est. 2026</text>
     <path d="M64 110H1136" stroke="#F8D89B" stroke-opacity=".45"/>
     <text x="57" y="280" font-size="154" font-weight="900" letter-spacing="-8">INNNX.</text>
-    <text x="66" y="330" font-size="31" letter-spacing="-.6">making stuff just because.</text>
-    <text x="66" y="398" font-size="23">hey! i'm innnx — i like turning random ideas into real things.</text>
+    <text x="66" y="330" font-size="31" letter-spacing="-.6">Making Stuff Just Because.</text>
+    <text x="66" y="398" font-size="23">hey! i'm INNNX — I like turning random ideas into real things.</text>
     <text x="66" y="449" font-size="20" fill="#F8D89B" letter-spacing="1">✳ code   ✳ games   ✳ robots   ✳ security</text>
     <path d="M64 492H1136" stroke="#F8D89B" stroke-opacity=".45"/>
-    <text x="64" y="554" font-size="30" font-weight="600" letter-spacing="-.6">things i've made <tspan font-size="22" font-weight="400">(or am making)</tspan></text>
+    <text x="64" y="554" font-size="30" font-weight="600" letter-spacing="-.6">Things i've made <tspan font-size="22" font-weight="400">(or am making)</tspan></text>
     <g fill="#A35D30">
       <rect x="64" y="591" width="524" height="181" rx="18"/>
       <rect x="612" y="591" width="524" height="181" rx="18"/>
@@ -25,7 +25,7 @@
     </g>
     <g fill="none" stroke="#F8D89B" stroke-opacity=".3"><rect x="64.5" y="591.5" width="523" height="180" rx="18"/><rect x="612.5" y="591.5" width="523" height="180" rx="18"/><rect x="64.5" y="796.5" width="523" height="180" rx="18"/><rect x="612.5" y="796.5" width="523" height="180" rx="18"/></g>
     <g fill="#F8D89B" font-family="Consolas, monospace" font-size="15" letter-spacing="2"><text x="92" y="629">01 /</text><text x="640" y="629">02 /</text><text x="92" y="834">03 /</text><text x="640" y="834">04 /</text></g>
-    <g font-size="34" font-weight="700" letter-spacing="-.8"><text x="92" y="686">featured</text><text x="640" y="686">infra &amp; security</text><text x="92" y="891">games</text><text x="640" y="891">robots &amp; IoT</text></g>
+    <g font-size="34" font-weight="700" letter-spacing="-.8"><text x="92" y="686">Featured</text><text x="640" y="686">Infra &amp; Security</text><text x="92" y="891">Games</text><text x="640" y="891">Robots &amp; IoT</text></g>
     <g font-size="22" fill="#F8D89B"><text x="92" y="730">— the big ideas</text><text x="640" y="730">— the technical stuff</text><text x="92" y="935">— the fun stuff</text><text x="640" y="935">— the little inventions</text></g>
     <g fill="none" stroke="#F8D89B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
       <use href="#star" x="543" y="630" style="color:#F8D89B"/>

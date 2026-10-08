@@ -1,41 +1,49 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1120" viewBox="0 0 1200 1120" role="img" aria-labelledby="title desc">
   <title id="title">innnx's playground ✳ — INNNX.</title>
-  <desc id="desc">A warm terracotta playground. Making Stuff Just Because. Code, games, robots and security. Four cards: Featured, Infra &amp; Security, Games, and Robots &amp; IoT. Currently experimenting with everything.</desc>
+  <desc id="desc">A muted gray-purple playground. Making Stuff Just Because. Code, games, robots and security. Four cards: Featured, Infra &amp; Security, Games, and Robots &amp; IoT. Currently experimenting with everything.</desc>
   <defs>
-    <pattern id="grain" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="3" cy="5" r=".7" fill="#F8D89B" opacity=".12"/><circle cx="17" cy="18" r=".6" fill="#F8D89B" opacity=".1"/></pattern>
+    <pattern id="grain" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="3" cy="5" r=".7" fill="#C2B8CE" opacity=".12"/><circle cx="17" cy="18" r=".6" fill="#C2B8CE" opacity=".1"/></pattern>
     <g id="star" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M-12 0H12M0-12V12M-8.5-8.5L8.5 8.5M-8.5 8.5L8.5-8.5"/></g>
   </defs>
-  <rect width="1200" height="1120" rx="28" fill="#B96B37"/>
+  <rect width="1200" height="1120" rx="28" fill="#292733"/>
   <rect width="1200" height="1120" rx="28" fill="url(#grain)"/>
-  <g font-family="Arial, Helvetica, sans-serif" fill="#FFF0CD">
+  <g font-family="Arial, Helvetica, sans-serif" fill="#EEEAF2">
     <text x="64" y="82" font-size="24" font-weight="600">lq's playground ✳</text>
-    <text x="1136" y="82" text-anchor="end" font-size="18" letter-spacing="2" fill="#F8D89B">est. 2026</text>
-    <path d="M64 110H1136" stroke="#F8D89B" stroke-opacity=".45"/>
+    <text x="1136" y="82" text-anchor="end" font-size="18" letter-spacing="2" fill="#C2B8CE">est. 2026</text>
+    <path d="M64 110H1136" stroke="#C2B8CE" stroke-opacity=".45"/>
     <text x="57" y="280" font-size="154" font-weight="900" letter-spacing="-8">INNNX.</text>
     <text x="66" y="330" font-size="31" letter-spacing="-.6">Making Stuff Just Because.</text>
     <text x="66" y="398" font-size="23">hey! i'm INNNX — I like turning random ideas into real things.</text>
-    <text x="66" y="449" font-size="20" fill="#F8D89B" letter-spacing="1">✳ code   ✳ games   ✳ robots   ✳ security</text>
-    <path d="M64 492H1136" stroke="#F8D89B" stroke-opacity=".45"/>
+    <text x="66" y="449" font-size="20" fill="#C2B8CE" letter-spacing="1">✳ code   ✳ games   ✳ robots   ✳ security</text>
+    <g transform="translate(913 188)" fill="none" stroke="#C2B8CE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-36 110L77 13L190 110M-14 93V190H167V93M122 47V12H151V71"/>
+      <path d="M52 190V123Q76 106 100 123V190"/>
+      <rect x="9" y="106" width="28" height="30" rx="2"/><path d="M23 106V136M9 121H37"/>
+      <rect x="116" y="106" width="28" height="30" rx="2"/><path d="M130 106V136M116 121H144"/>
+      <path d="M-40 191H195M137-8Q120-22 136-38Q151-53 138-69M-12 169Q-38 134-53 157Q-48 182-12 180M177 175Q205 140 217 162Q206 183 177 185"/>
+      <use href="#star" x="194" y="5" style="color:#C2B8CE"/>
+    </g>
+    <path d="M64 492H1136" stroke="#C2B8CE" stroke-opacity=".45"/>
     <text x="64" y="554" font-size="30" font-weight="600" letter-spacing="-.6">Things i've made <tspan font-size="22" font-weight="400">(or am making)</tspan></text>
-    <g fill="#A35D30">
+    <g fill="#35313F">
       <rect x="64" y="591" width="524" height="181" rx="18"/>
       <rect x="612" y="591" width="524" height="181" rx="18"/>
       <rect x="64" y="796" width="524" height="181" rx="18"/>
       <rect x="612" y="796" width="524" height="181" rx="18"/>
     </g>
-    <g fill="none" stroke="#F8D89B" stroke-opacity=".3"><rect x="64.5" y="591.5" width="523" height="180" rx="18"/><rect x="612.5" y="591.5" width="523" height="180" rx="18"/><rect x="64.5" y="796.5" width="523" height="180" rx="18"/><rect x="612.5" y="796.5" width="523" height="180" rx="18"/></g>
-    <g fill="#F8D89B" font-family="Consolas, monospace" font-size="15" letter-spacing="2"><text x="92" y="629">01 /</text><text x="640" y="629">02 /</text><text x="92" y="834">03 /</text><text x="640" y="834">04 /</text></g>
+    <g fill="none" stroke="#C2B8CE" stroke-opacity=".3"><rect x="64.5" y="591.5" width="523" height="180" rx="18"/><rect x="612.5" y="591.5" width="523" height="180" rx="18"/><rect x="64.5" y="796.5" width="523" height="180" rx="18"/><rect x="612.5" y="796.5" width="523" height="180" rx="18"/></g>
+    <g fill="#C2B8CE" font-family="Consolas, monospace" font-size="15" letter-spacing="2"><text x="92" y="629">01 /</text><text x="640" y="629">02 /</text><text x="92" y="834">03 /</text><text x="640" y="834">04 /</text></g>
     <g font-size="34" font-weight="700" letter-spacing="-.8"><text x="92" y="686">Featured</text><text x="640" y="686">Infra &amp; Security</text><text x="92" y="891">Games</text><text x="640" y="891">Robots &amp; IoT</text></g>
-    <g font-size="22" fill="#F8D89B"><text x="92" y="730">— the big ideas</text><text x="640" y="730">— the technical stuff</text><text x="92" y="935">— the fun stuff</text><text x="640" y="935">— the little inventions</text></g>
-    <g fill="none" stroke="#F8D89B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-      <use href="#star" x="543" y="630" style="color:#F8D89B"/>
+    <g font-size="22" fill="#C2B8CE"><text x="92" y="730">— the big ideas</text><text x="640" y="730">— the technical stuff</text><text x="92" y="935">— the fun stuff</text><text x="640" y="935">— the little inventions</text></g>
+    <g fill="none" stroke="#C2B8CE" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <use href="#star" x="543" y="630" style="color:#C2B8CE"/>
       <path d="M1081 615L1096 620V632Q1094 645 1081 651Q1068 645 1066 632V620Z M1075 633L1080 638L1088 628"/>
       <path d="M528 823H549Q555 823 558 831L562 845Q563 852 557 852L548 845H529L520 852Q514 852 515 845L519 831Q521 823 528 823Z M524 831V841M519 836H529M547 833H547.1M552 840H552.1"/>
       <rect x="1066" y="825" width="34" height="26" rx="5"/><path d="M1083 825V816M1078 816H1088M1066 836H1060M1100 836H1106M1075 835V837M1091 835V837M1077 844H1089"/>
     </g>
-    <path d="M64 1018H1136" stroke="#F8D89B" stroke-opacity=".45"/>
-    <circle cx="72" cy="1062" r="5" fill="#F8D89B"/>
-    <text x="91" y="1069" font-size="22" fill="#F8D89B">currently experimenting with everything.</text>
-    <use href="#star" x="1119" y="1063" style="color:#F8D89B"/>
+    <path d="M64 1018H1136" stroke="#C2B8CE" stroke-opacity=".45"/>
+    <circle cx="72" cy="1062" r="5" fill="#C2B8CE"/>
+    <text x="91" y="1069" font-size="22" fill="#C2B8CE">currently experimenting with everything.</text>
+    <use href="#star" x="1119" y="1063" style="color:#C2B8CE"/>
   </g>
 </svg>

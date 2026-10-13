@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lq922466.github.io/Lq922466/sitemap.xml
